@@ -70,7 +70,7 @@
     width: 90vw;
     height: 200px;
     .cardheader {
-      padding: 30px;
+      padding: 20px;
       font: 500 15px "poppins";
       h4 {
         font-weight: 400;
@@ -78,15 +78,16 @@
     }
     img {
       position: absolute;
-      width: 500px;
+      width: 350px;
       // top:-20px;s
-      bottom: -15%;
-      right: -50%;
+      bottom: 0;
+      right: -60%;
       transition: 0.4s ease-in-out;
     }
     .button_card {
       button {
         font: 600 15px "poppins";
+        z-index: 999;
       }
     }
   }
