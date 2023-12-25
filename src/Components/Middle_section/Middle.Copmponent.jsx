@@ -12,7 +12,7 @@ const MiddleComponent = () => {
       reliably submit bugs against, <span>filtering out true issues</span>
       from everything else. <br />
       <br />
-      <span className="special">
+      <span class="special">
         Share complete environments with only a url,
       </span>
       and never spin up heavy local installations for a simple bug report
@@ -22,7 +22,7 @@ const MiddleComponent = () => {
     {
       id: 2,
       title: "Interactive Documentation",
-      subtitle: `<span className="special">
+      subtitle: `<span class="special">
       Use the StackBlitz SDK<span>
       </span> to embed and interact with <span>actual code </span>in your
       <span>actual docs,</span>
@@ -35,7 +35,7 @@ const MiddleComponent = () => {
       title: "Rapid Prototyping",
       subtitle: `
       Speed up your entire development process with <span>real time hot-reloading in the</span> 
-      <span className="special">
+      <span class="special">
       fastest dev environment ever made.
       </span>
       Collaborate remotely on different devices, send and receive instant feedback, and

@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.scss";
-import { useTypewriter, Typewriter } from "react-simple-typewriter";
+import { useTypewriter } from "react-simple-typewriter";
 import HeroImage from "./HeroImage/HeroImage";
 
 const HeroComponent = () => {

@@ -19,12 +19,12 @@
       font: 400 20px "poppins";
       line-height: 40px;
       word-spacing: 5px;
-      .special {
-        color: #00bcdd;
-      }
       span {
         color: #535353;
         font-weight: 600;
+      }
+      .special {
+        color: #00bcdd;
       }
     }
   }
@@ -36,6 +36,7 @@
     }
   }
 }
+
 .middle_sub_lower2 {
   flex-direction: row-reverse;
 }

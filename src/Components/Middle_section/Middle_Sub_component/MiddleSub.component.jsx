@@ -13,7 +13,7 @@ const MiddleSubComponent = (props) => {
     >
       <section className="middle_sub_left">
         <div className="middle_sub_left_head">{props.title}</div>
-        <div
+        <p
           dangerouslySetInnerHTML={{ __html: props.subtitle }}
           className="subtitle_middle"
         />
