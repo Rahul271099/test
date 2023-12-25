@@ -1,0 +1,39 @@
+.lower_container_wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #14161b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  header {
+    font: 400 40px "poppins";
+    text-align: center;
+    margin-top: 50px;
+    span {
+      color: #69f5ff;
+    }
+  }
+  .lower_container-body {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+  }
+}
+.lower_sub {
+  background-color: #14161b;
+  color: #ffff;
+  span {
+    color: #ffff;
+  }
+}
+@media (max-width: 768px) {
+  .lower_container_wrapper {
+    header {
+      font-size: 30px;
+    }
+  }
+}

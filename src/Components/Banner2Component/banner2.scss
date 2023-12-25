@@ -1,0 +1,49 @@
+.banner_2_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  width: 100%;
+  min-height: 80vh;
+  background: rgb(110, 0, 131);
+  background: linear-gradient(
+    90deg,
+    rgb(66, 0, 79) 46%,
+    rgba(0, 49, 48, 0.2) 73%
+  );
+  .banner2_head {
+    font: 600 30px "poppins";
+    text-align: center;
+  }
+  .lower_banner-icons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 100px;
+    font: 400 30px "poppins";
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .banner_2_section {
+    padding: 50px;
+    .banner2_head {
+      margin-top: 50px;
+      font: 600 18px "poppins";
+      text-align: center;
+    }
+    .lower_banner-icons {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 100px;
+      font: 400 30px "poppins";
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+}

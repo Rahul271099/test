@@ -1,0 +1,67 @@
+.banner4_section {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(54, 26, 57);
+  background: linear-gradient(
+    90deg,
+    rgba(54, 26, 57, 1) 46%,
+    rgba(24, 47, 62, 1) 83%
+  );
+  gap: 50px;
+  .top_banner4 {
+    text-align: center;
+    font: 500 20px "poppins";
+    h3 {
+      font: 300 30px "poppins";
+    }
+  }
+  .bottom_banner4 {
+    width: 100%;
+    text-align: center;
+    button {
+      font: 500 18px "poppins";
+      text-transform: uppercase;
+      width: 30%;
+      padding: 30px 80px;
+      background: linear-gradient(to left, transparent 50%, #33ffcc 50%);
+      background-size: 200% 100%;
+      background-position: right bottom;
+      border: 1px solid #33ffcc;
+      color: #ffff;
+      transition: all ease 0.3s;
+    }
+  }
+}
+.bottom_banner4 {
+  button:hover {
+    background-color: #33ffcc;
+    background-position: left bottom;
+  }
+}
+@media (max-width: 768px) {
+  .banner4_section {
+    .top_banner4 {
+      font: 500 18px "poppins";
+      h3 {
+        font: 300 20px "poppins";
+      }
+    }
+    .bottom_banner4 {
+      width: 100%;
+      text-align: center;
+      button {
+        font: 500 16px "poppins";
+        text-transform: uppercase;
+        width: 80%;
+        padding: 20px 50px;
+        background-color: transparent;
+        border: 1px solid #33ffcc;
+        color: #ffff;
+      }
+    }
+  }
+}
