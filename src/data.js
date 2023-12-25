@@ -1,5 +1,3 @@
-import logo5 from "./assets/rxjs-1.svg";
-
 const data = [
   {
     id: 1,

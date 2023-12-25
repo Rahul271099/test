@@ -5,7 +5,7 @@
   justify-content: space-between;
   // align-items: center;
   min-height: calc(100vh - 80px);
-  padding: 80px 35px;
+  padding: 0px 35px;
   .hero_left {
     display: flex;
     min-height: 100vh;
@@ -21,6 +21,7 @@
         z-index: 10;
       }
       button {
+        margin-top: 20px;
         padding: 10px 15px;
         border: 1px solid black;
         border-radius: 20px;
@@ -44,7 +45,7 @@
       font: 600 60px "poppins";
       .hero_head {
         h1 {
-          line-height: 100px;
+          // line-height: 100px;
         }
       }
       .for_smaller {

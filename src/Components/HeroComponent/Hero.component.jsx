@@ -1,17 +1,22 @@
 import React from "react";
 import "./hero.scss";
-import ReactTyped from "react-typed";
+import { useTypewriter, Typewriter } from "react-simple-typewriter";
 import HeroImage from "./HeroImage/HeroImage";
 
 const HeroComponent = () => {
-  const words = [
-    "Code.",
-    "Learn New Framework.",
-    "Review Bug Report.",
-    "Present Live Demo.",
-    "Get Feedback.",
-    "Create Rapid Prototype.",
-  ];
+  const [typeEffect] = useTypewriter({
+    words: [
+      "Code.",
+      "Learn New Framework.",
+      "Review Bug Report.",
+      "Present Live Demo.",
+      "Get Feedback.",
+      "Create Rapid Prototype.",
+    ],
+    loop: {},
+    typeSpeed: 20,
+    deleteSpeed: 40,
+  });
   return (
     <div>
       <main className="hero_section">
@@ -24,14 +29,7 @@ const HeroComponent = () => {
             <div className="hero_head">
               <h1>Click.</h1>
               <h2 className="for_smaller">Code.</h2>
-              <h1 className="typing_word">
-                <ReactTyped
-                  strings={words}
-                  typeSpeed={8}
-                  backDelay={3000}
-                  loop
-                />
-              </h1>
+              <h1 className="typing_word">{typeEffect}</h1>
               <h1 className="last">Done.</h1>
             </div>
             <p>
