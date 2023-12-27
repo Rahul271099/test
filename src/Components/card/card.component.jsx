@@ -1,5 +1,7 @@
 import React from "react";
 import "./card.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const CardComponent = (props) => {
   return (
@@ -12,7 +14,10 @@ const CardComponent = (props) => {
         <img src={props.contentImage} alt="" />
         <div className="button_card">
           <button>
-            {props.buttontext} <span>&#11166;</span>
+            {props.buttontext}
+            <span>
+              <FontAwesomeIcon icon={faArrowRight} />
+            </span>
           </button>
         </div>
       </main>
